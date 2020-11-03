@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_tools"
+        android:layout_width="403dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="590dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="About"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="614dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/kenya_trade_network_agency_kentrade"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="395dp"
+        android:layout_marginTop="18dp"
+        android:padding="15sp"
+        android:text="KenTrade is a State Corporation under the National Treasury established in January 2011 to establish,implement and manage the National Electronic Single Window System(KenyaTradeNet System) and to facilitate trade"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="338dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="236dp"
+        android:padding="15sp"
+        android:scrollbars="vertical"
+        android:text="@string/kenyatradenet_system_is_an_online_platform_that_serves_as_a_single_enry_point_for_parties_involved_in_international_trade_and_transport_logistics_to_lodge_documents_electronically_for_processing_approvals_and_to_make_payments_electronically_for_fees_levies_duties_and_taxes_due_to_the_government_on_goods_imported_and_exported_in_the_country"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+
+

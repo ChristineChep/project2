@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rights">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:text="Rights of an Exporter Include:"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:layout_marginStart="5dp"
+        android:text="1.Rights regarding customs duty and assesment:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:padding="5dp"
+        android:text="A.Objections to a Customs or Excise duty assesment  if they beleive theey have been assesed rongly or unfairlyKRA will endeavor to resolve the objection within 30 days assesment"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="B.Audits/Investigations/Inspection - The exporter may be selected for audit on customs duty or ther taxes administered by KRA.Notice will be given in advance.Rate imposeed for customs and Excise duties owing is 2% per month compounded"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="2.Rights regarding quality standards:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="-3dp"
+        android:text="A.Right to seek information from KEBS on  regulation on quality standards"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="B.Appeal - If not satisfied with the findings of a KEPHIS inspector you can appeal to get a second opinion from another inspector"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="Obligations of the exporter:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="-3dp"
+        android:text="A.Compliance with standards"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="B.Ensure goods are verified for quality"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="C.Ensure goods are issued with certificate of conformity"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="0dp"
+        android:text="D.Payment of taxes an penalties"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_marginEnd="-2dp"
+        android:text="E.disclosure and production of relevant information,records and documents"
+        android:textSize="20dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

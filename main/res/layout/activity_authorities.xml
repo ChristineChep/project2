@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/revenue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="86dp"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:text=" Kenya Revenue authority(KRA)"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="157dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:src="@drawable/fish" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="216dp"
+            android:layout_height="88dp"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:text="Association of Fish Processors and Exporters in Kenya"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="691dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="398dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="400dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/insurer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="63dp"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:text="Association of  Kenya Insurers"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="466dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/fresh" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="215dp"
+            android:layout_height="103dp"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:text="Fresh Produce Exporters Association Of Kenya"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="323dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/fresh" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="215dp"
+            android:layout_height="103dp"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Export Processing Zone "
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

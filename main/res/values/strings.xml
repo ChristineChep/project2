@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FarmersConnect</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="map_key" translatable="false">map_key</string>
+    <string name="kenyatradenet_system_is_an_online_platform_that_serves_as_a_single_enry_point_for_parties_involved_in_international_trade_and_transport_logistics_to_lodge_documents_electronically_for_processing_approvals_and_to_make_payments_electronically_for_fees_levies_duties_and_taxes_due_to_the_government_on_goods_imported_and_exported_in_the_country">KenyaTradeNet System is an online platform that serves as a single enry point for parties involved in international trade and transport logistics to lodge documents electronically for processing approvals and to make payments electronically for fees,levies,duties and taxes due to the government on goods imported and exported in the country.</string>
+    <string name="kenya_trade_network_agency_kentrade">Kenya Trade Network Agency (KenTrade)</string>
+
+</resources>
